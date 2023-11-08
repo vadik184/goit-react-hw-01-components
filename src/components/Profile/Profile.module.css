@@ -1,0 +1,88 @@
+.profile {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 9px 10px 8px -10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dfe5ed;
+}
+.description {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.avatar {
+  width: 160px;
+  height: 160px;
+  border: 2px solid #7c8b9a79;
+  border-radius: 50%;
+}
+.name {
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #122236;
+}
+.tag,
+.location {
+  padding-top: 10px;
+  color: #7c8b9a;
+}
+
+.stats {
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  background-color: #f3f6f9;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #dfe5ed;
+}
+
+.stats li {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+}
+.stats li:first-child {
+  border-right: 2px solid #dfe5ed;
+}
+.stats li:last-child {
+  border-left: 2px solid #dfe5ed;
+}
+
+.label {
+  font-size: 16px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #7c8b9a;
+  border: none;
+}
+.quantity {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #122236;
+}
